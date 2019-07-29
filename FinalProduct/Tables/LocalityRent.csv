@@ -1,0 +1,9 @@
+LocalityRentId,localityId,suburb,bedrooms,bathrooms,averageRent,averageRent75Percentile,averageRent50Percentile,numberOfProperty
+1,16593,Kamabh,2,1,380.0,380.0,380.0,1
+2,16593,Kamabh,3,1,465.0,487.5,460.0,4
+3,16593,Kamabh,3,2,550.0,550.0,550.0,1
+4,6973,Monash,2,1,400.0,400.0,400.0,1
+5,6973,Monash,3,1,480.0,480.0,480.0,1
+6,6973,Monash,3,2,495.0,495.0,495.0,2
+7,12021,Oxley,2,1,420.0,420.0,420.0,1
+8,12021,Oxley,3,2,520.0,520.0,520.0,1

@@ -10,7 +10,7 @@ def add_locality():
 	bedrooms =request.json['bedrooms']
 	bathrooms =request.json['bathrooms']
 	AAR  = request.json['AAR']
-	numberOfHouses = request.json['numberOfHouses']
+	numberOfProperty = request.json['numberOfProperty']
 	AARAppartment  = request.json['AARAppartment']
 	NumberAARAppartment = request.json['NumberAARAppartment']
 	AARHouse  = request.json['AARHouse']
@@ -30,7 +30,7 @@ def add_locality():
 	AAROctober =request.json['AAROctober']
 	AARNovember =request.json['AARNovember']
 	AARDecember =request.json['AARDecember']
-	new_data = ResultsAAR(suburb, bedrooms, bathrooms,AAR,numberOfHouses,AARAppartment,NumberAARAppartment,AARHouse,NumberAARHouse,AAR75Percentile,AAR50Percentile,
+	new_data = ResultsAAR(suburb, bedrooms, bathrooms,AAR,numberOfProperty,AARAppartment,NumberAARAppartment,AARHouse,NumberAARHouse,AAR75Percentile,AAR50Percentile,
 		HighestType,AARJanuary,AARFebuary,AARMarch,AARApril,AARMay,AARJnue,AARJuly,AARAugust,AARSeptember,AAROctober,AARNovember,AARDecember)
 	db.session.add(new_data)
 	db.session.commit()
@@ -61,7 +61,7 @@ def update_localitys(id):
 		bedrooms =request.json['bedrooms']
 		bathrooms =request.json['bathrooms']
 		AAR  = request.json['AAR']
-		numberOfHouses = request.json['numberOfHouses']
+		numberOfProperty = request.json['numberOfProperty']
 		AARAppartment  = request.json['AARAppartment']
 		NumberAARAppartment = request.json['NumberAARAppartment']
 		AARHouse  = request.json['AARHouse']
@@ -86,7 +86,7 @@ def update_localitys(id):
 		locality.bedrooms = bedrooms
 		locality.bathrooms = bathrooms
 		locality.AAR = AAR
-		locality.numberOfHouses = numberOfHouses
+		locality.numberOfProperty = numberOfProperty
 		locality.AARAppartment = AARAppartment
 		locality.NumberAARAppartment = NumberAARAppartment
 		locality.AARHouse = AARHouse

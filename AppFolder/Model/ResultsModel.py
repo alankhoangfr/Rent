@@ -9,7 +9,7 @@ class ResultsAAR(db.Model):
 	bedrooms =db.Column(db.Integer, nullable=False)
 	bathrooms =db.Column(db.Integer, nullable=False)
 	AAR  = db.Column(db.Float)
-	numberOfHouses = db.Column(db.Integer)
+	numberOfProperty = db.Column(db.Integer)
 	AARAppartment  = db.Column(db.Float)
 	NumberAARAppartment  = db.Column(db.Integer)
 	AARHouse  = db.Column(db.Float)
@@ -22,7 +22,7 @@ class ResultsAAR(db.Model):
 	AARMarch =db.Column(db.Float)
 	AARApril = db.Column(db.Float)
 	AARMay = db.Column(db.Float)
-	AARJnue = db.Column(db.Float)
+	AARJune = db.Column(db.Float)
 	AARJuly = db.Column(db.Float)
 	AARAugust = db.Column(db.Float)
 	AARSeptember =db.Column(db.Float)
@@ -30,15 +30,15 @@ class ResultsAAR(db.Model):
 	AARNovember =db.Column(db.Float)
 	AARDecember =db.Column(db.Float)
 
-	def __init__(self,suburb, bedrooms, bathrooms,AAR,numberOfHouses,AARAppartment,NumberAARAppartment,AARHouse,NumberAARHouse,
-		AAR75Percentile,AAR50Percentile,HighestType,AARJanuary,AARFebuary,AARMarch,AARApril,AARMay,AARJnue,AARJuly,AARAugust,
+	def __init__(self,suburb, bedrooms, bathrooms,AAR,numberOfProperty,AARAppartment,NumberAARAppartment,AARHouse,NumberAARHouse,
+		AAR75Percentile,AAR50Percentile,HighestType,AARJanuary,AARFebuary,AARMarch,AARApril,AARMay,AARJune,AARJuly,AARAugust,
 		AARSeptember,AAROctober,AARNovember,AARDecember):
 
 		self.suburb = suburb
 		self.bedrooms = bedrooms
 		self.bathrooms = bathrooms
 		self.AAR = AAR 
-		self.numberOfHouses = numberOfHouses
+		self.numberOfProperty = numberOfProperty
 		self.AARAppartment = AARAppartment
 		self.NumberAARAppartment = NumberAARAppartment
 		self.AARHouse = AARHouse
@@ -51,7 +51,7 @@ class ResultsAAR(db.Model):
 		self.AARMarch = AARMarch
 		self.AARApril = AARApril
 		self.AARMay = AARMay
-		self.AARJnue = AARJnue
+		self.AARJune = AARJune
 		self.AARJuly = AARJuly
 		self.AARAugust = AARAugust
 		self.AARSeptember = AARSeptember
@@ -62,8 +62,8 @@ class ResultsAAR(db.Model):
 # Results Annual Revenue Schema
 class ResultsAARSchema(ma.Schema):
 	class Meta:
-		fields = ('localityId','suburb', 'bedrooms', 'bathrooms','AAR','numberOfHouses','NumberAARHouse','AARAppartment','AARHouse','NumberAARHouse',
-			'AAR75Percentile','AAR50Percentile','HighestType','AARJanuary','AARFebuary','AARMarch','AARApril','AARMay','AARJnue',
+		fields = ('localityId','suburb', 'bedrooms', 'bathrooms','AAR','numberOfProperty','NumberAARHouse','AARAppartment','AARHouse','NumberAARHouse',
+			'AAR75Percentile','AAR50Percentile','HighestType','AARJanuary','AARFebuary','AARMarch','AARApril','AARMay','AARJune',
 			'AARJuly','AARAugust','AARSeptember','AAROctober','AARNovember','AARDecember')
 
 # Init schema
@@ -87,7 +87,7 @@ class ResultsOccupancy(db.Model):
 	AOMarch =db.Column(db.Float)
 	AOApril = db.Column(db.Float)
 	AOMay = db.Column(db.Float)
-	AOJnue = db.Column(db.Float)
+	AOJune = db.Column(db.Float)
 	AOJuly = db.Column(db.Float)
 	AOAugust = db.Column(db.Float)
 	AOSeptember =db.Column(db.Float)
@@ -96,7 +96,7 @@ class ResultsOccupancy(db.Model):
 	AODecember =db.Column(db.Float)
 
 	def __init__(self, suburb, bedrooms, bathrooms,AverageOccupancy,AO75Percentile,AO50Percentile,AOJanuary,AOFebuary,AOMarch
-		,AOApril,AOMay,AOJnue,AOJuly,AOAugust,AOSeptember,AOOctober,AONovember,AODecember):
+		,AOApril,AOMay,AOJune,AOJuly,AOAugust,AOSeptember,AOOctober,AONovember,AODecember):
 
 		self.suburb = suburb
 		self.bedrooms = bedrooms
@@ -109,7 +109,7 @@ class ResultsOccupancy(db.Model):
 		self.AOMarch = AOMarch
 		self.AOApril = AOApril
 		self.AOMay = AOMay
-		self.AOJnue = AOJnue
+		self.AOJune = AOJune
 		self.AOJuly = AOJuly
 		self.AOAugust = AOAugust
 		self.AOSeptember = AOSeptember
@@ -121,7 +121,7 @@ class ResultsOccupancy(db.Model):
 class ResultsOccupancySchema(ma.Schema):
 	class Meta:
 		fields = ('localityId', 'bedrooms', 'bathrooms','suburb','AverageOccupancy',
-			'AO75Percentile','AO50Percentile','AOJanuary','AOFebuary','AOMarch','AOApril','AOMay','AOJnue','AOJuly',
+			'AO75Percentile','AO50Percentile','AOJanuary','AOFebuary','AOMarch','AOApril','AOMay','AOJune','AOJuly',
 			'AOAugust','AOSeptember','AOOctober','AONovember','AODecember')
 
 # Init schema
@@ -132,27 +132,10 @@ ResultsOccupancys_schema = ResultsOccupancySchema(many=True, strict=True)
 #LocalityAgent
 
 
-class LocalityAgent(db.Model):
-	__tablename__ = 'LocalityAgent'
-	localityId = db.Column(db.Integer,db.ForeignKey('LocalityRent.localityId'), primary_key=True)
-	agentId = db.Column(db.Integer,db.ForeignKey('Agent.agentId'), primary_key=True)
-	localityRent = db.relationship("LocalityRent",back_populates="agents")
-	agent = db.relationship("Agent",back_populates = "localityRents")
-
-	def __init__(self,LocalityAgentId, localityId, agentId):
-		self.LocalityAgentId = LocalityAgentId
-		self.localityId = localityId
-		self.agentId = agentId
-
-# Agent Schema
-class LocalityAgentSchema(ma.Schema):
-	class Meta:
-		fields = ('LocalityAgentId', 'localityId', 'agentId')
-
-# Init schema
-LocalityAgent_schema = LocalityAgentSchema(strict=True)
-LocalityAgents_schema = LocalityAgentSchema(many=True, strict=True)
-
+association_table = db.Table('LocalityAgent',
+    db.Column('localityId', db.Integer, db.ForeignKey('LocalityRent.localityId')),
+    db.Column('agentId', db.Integer, db.ForeignKey('Agent.agentId'))
+)
 
 
 # ResultsRent
@@ -167,11 +150,11 @@ class LocalityRent(db.Model):
 	averageRent =db.Column(db.Float)
 	averageRent75Percentile = db.Column(db.Float)
 	averageRent50Percentile = db.Column(db.Float)
-	numberOfHouses = db.Column(db.Integer)
-	agents = db.relationship("LocalityAgent",back_populates="localityRent")
+	numberOfProperty = db.Column(db.Integer)
+	agents = db.relationship("Agent",secondary="LocalityAgent", backref="LocalityRent",lazy ="select")
 
 
-	def __init__(self, localityId, suburb, bedrooms, bathrooms,averageRent,averageRent75Percentile,averageRent50Percentile,numberOfHouses):
+	def __init__(self, localityId, suburb, bedrooms, bathrooms,averageRent,averageRent75Percentile,averageRent50Percentile,numberOfProperty):
 		self.localityId = localityId
 		self.suburb = suburb
 		self.bedrooms = bedrooms
@@ -179,12 +162,12 @@ class LocalityRent(db.Model):
 		self.averageRent  = averageRent
 		self.averageRent75Percentile = averageRent75Percentile
 		self.averageRent50Percentile =averageRent50Percentile
-		self.numberOfHouses = numberOfHouses
+		self.numberOfProperty = numberOfProperty
 
 # ResultsOccupancy Schema
 class LocalityRentSchema(ma.Schema):
 	class Meta:
-		fields = ('LocalityRentId,''localityId', 'suburb', 'bedrooms', 'bathrooms','averageRent','averageRent75Percentile','averageRent50Percentile','numberOfHouses')
+		fields = ('LocalityRentId,''localityId', 'suburb', 'bedrooms', 'bathrooms','averageRent','averageRent75Percentile','averageRent50Percentile','numberOfProperty')
 
 # Init schema
 LocalityRent_schema = LocalityRentSchema(strict=True)
@@ -198,8 +181,7 @@ class Agent(db.Model):
 	__tablename__ = 'Agent'
 	agentId = db.Column(db.Integer, primary_key=True)
 	agentName = db.Column(db.String(60))
-	localityRents = db.relationship("LocalityAgent",back_populates="agent")
-
+	
 
 	def __init__(self, agentName):
 		self.agentName = agentName
@@ -212,3 +194,37 @@ class AgentSchema(ma.Schema):
 # Init schema
 Agent_schema = AgentSchema(strict=True)
 Agents_schema = AgentSchema(many=True, strict=True)
+
+
+class LocalityAgentBedrooms(db.Model):
+	__tablename__="LocalityAgentBedrooms"
+	LocalityAgentBedroomsId = db.Column(db.Integer, primary_key=True)
+	localityId = db.Column(db.Integer)
+	suburb = db.Column(db.String(60))
+	bedrooms =db.Column(db.Integer, nullable=False)
+	bathrooms =db.Column(db.Integer, nullable=False)
+	agentName = db.Column(db.String(60))
+	averageRent =db.Column(db.Float)
+	averageRent75Percentile = db.Column(db.Float)
+	averageRent50Percentile = db.Column(db.Float)
+	numberOfProperty = db.Column(db.Integer)
+	
+	def __init__(self, localityId, suburb, bedrooms, bathrooms,agentName,averageRent,averageRent75Percentile,averageRent50Percentile,numberOfProperty):
+		self.localityId = localityId
+		self.suburb = suburb
+		self.bedrooms = bedrooms
+		self.bathrooms = bathrooms
+		self.agentName=agentName
+		self.averageRent  = averageRent
+		self.averageRent75Percentile = averageRent75Percentile
+		self.averageRent50Percentile =averageRent50Percentile
+		self.numberOfProperty = numberOfProperty
+
+# ResultsOccupancy Schema
+class LocalityAgentBedroomsSchema(ma.Schema):
+	class Meta:
+		fields = ('LocalityRentId,''localityId', 'suburb', 'bedrooms', 'bathrooms','agentName','averageRent','averageRent75Percentile','averageRent50Percentile','numberOfProperty')
+
+# Init schema
+LocalityAgentBedrooms_schema = LocalityAgentBedroomsSchema(strict=True)
+LocalityAgentBedroomss_schema = LocalityAgentBedroomsSchema(many=True, strict=True)

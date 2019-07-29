@@ -21,14 +21,15 @@ db= SQLAlchemy(app)
 
 ma = Marshmallow(app)
 
+from AppFolder.Model.ResultsModel import *
 from AppFolder.Routes import UsersRoutes	
 from AppFolder.Routes.Results import ResultsAARRoutes
 from AppFolder.Routes.Results import ResultsOccupancyRoutes
-from AppFolder.Routes.Results import LocalityAgentRoutes
+#from AppFolder.Routes.Results import LocalityAgentRoutes
 from AppFolder.Routes.Results import LocalityRentRoutes
 from AppFolder.Routes.Results import AgentRoutes
 
-#in anaconda set FLASK_APP=run.py then run the commmand
+#in anaconda set FLASK_APP=run.py FLASK_ENV=development then run the commmand
 
 from AppFolder.script1 import reset_db,setupAirDna,setupRPD
 
@@ -42,4 +43,9 @@ def setupAirDna_command():
 
 @app.cli.command("setupRPD")
 def setupRPD_command():
+	setupRPD()
+
+@app.cli.command("TotalSetup")
+def TotalSetup_command():
+	setupAirDna()
 	setupRPD()

@@ -10,3 +10,8 @@ Canberra
 Kamabh 2902 : 16953
 Monash 2904: 6973
 Oxley 2903: 12021
+
+For the data of Corelogic, outliers of 1.5 std have been removed
+
+Must look at way of categorising the subrubs and locality id
+		since AirDna does not have the locality Id and in we are joining with the suburb name. 
