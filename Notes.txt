@@ -1,0 +1,12 @@
+To set environment
+	In anaconda, 
+		set FLASK_APP=run.py
+		set FLASK_ENV=development
+
+LocalityId for corelogic
+
+Canberra
+
+Kamabh 2902 : 16953
+Monash 2904: 6973
+Oxley 2903: 12021

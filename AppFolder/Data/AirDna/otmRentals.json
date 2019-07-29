@@ -1,0 +1,1044 @@
+{
+    "_embedded": {
+        "propertySummaryList": [
+            {
+                "propertySummary": {
+                    "address": {
+                        "singleLineAddress": "52/130 Main Street Blacktown NSW 2148"
+                    },
+                    "attributes": {
+                        "bathrooms": 2,
+                        "bedrooms": 2,
+                        "carSpaces": 1,
+                        "isCalculatedLandArea": false,
+                        "landArea": 95,
+                        "lockUpGarages": 1
+                    },
+                    "coordinate": {
+                        "latitude": -33.77197234,
+                        "longitude": 150.91106057
+                    },
+                    "id": 17439064,
+                    "locationIdentifiers": {
+                        "councilAreaId": 13,
+                        "localityId": 5681,
+                        "postCodeId": 100266,
+                        "streetId": 269429
+                    },
+                    "otmForRentDetail": {
+                        "agency": "Elders Real Estate Blacktown",
+                        "agent": "Rufina Djo",
+                        "date": "2019-04-26",
+                        "isActiveCampaign": true,
+                        "period": "W",
+                        "price": 3185,
+                        "priceDescription": "$455 $455"
+                    },
+                    "propertyPhoto": {
+                        "largePhotoUrl": "https://das-web.corelogic.asia/v1/asset/N2LCKY6IZMI6RF6RLFFTMSYQOU/resize;m=exact;w=768;h=512",
+                        "mediumPhotoUrl": "https://das-web.corelogic.asia/v1/asset/N2LCKY6IZMI6RF6RLFFTMSYQOU/resize;m=exact;w=470;h=313",
+                        "scanDate": "2018-10-05",
+                        "thumbnailPhotoUrl": "https://das-web.corelogic.asia/v1/asset/N2LCKY6IZMI6RF6RLFFTMSYQOU/resize;m=exact;w=120;h=80"
+                    },
+                    "propertyStatus": {
+                        "otmForRent": true,
+                        "otmForSale": false,
+                        "recentSale": false
+                    },
+                    "propertySubType": "Unit: Standard",
+                    "propertySubTypeShort": "Standard",
+                    "propertyType": "UNIT",
+                    "radiusSummary": {
+                        "distanceFromPoint": "0.45"
+                    }
+                }
+            },
+            {
+                "propertySummary": {
+                    "address": {
+                        "singleLineAddress": "45/130 Main Street Blacktown NSW 2148"
+                    },
+                    "attributes": {
+                        "bathrooms": 2,
+                        "bedrooms": 2,
+                        "carSpaces": 1,
+                        "isCalculatedLandArea": false,
+                        "landArea": 111
+                    },
+                    "coordinate": {
+                        "latitude": -33.77197234,
+                        "longitude": 150.91106057
+                    },
+                    "id": 17439063,
+                    "locationIdentifiers": {
+                        "councilAreaId": 13,
+                        "localityId": 5681,
+                        "postCodeId": 100266,
+                        "streetId": 269429
+                    },
+                    "otmForRentDetail": {
+                        "agency": "Elders Real Estate Blacktown",
+                        "agent": "Rufina Djo",
+                        "date": "2019-04-26",
+                        "isActiveCampaign": true,
+                        "period": "W",
+                        "price": 3290,
+                        "priceDescription": "$470 $470"
+                    },
+                    "propertyPhoto": {
+                        "largePhotoUrl": "https://das-web.corelogic.asia/v1/asset/XKMT7ESX6UI6TMV4AUYVBQLNCQ/resize;m=exact;w=768;h=512",
+                        "mediumPhotoUrl": "https://das-web.corelogic.asia/v1/asset/XKMT7ESX6UI6TMV4AUYVBQLNCQ/resize;m=exact;w=470;h=313",
+                        "scanDate": "1970-01-01",
+                        "thumbnailPhotoUrl": "https://das-web.corelogic.asia/v1/asset/XKMT7ESX6UI6TMV4AUYVBQLNCQ/resize;m=exact;w=120;h=80"
+                    },
+                    "propertyStatus": {
+                        "otmForRent": true,
+                        "otmForSale": false,
+                        "recentSale": false
+                    },
+                    "propertySubType": "Unit: Standard",
+                    "propertySubTypeShort": "Standard",
+                    "propertyType": "UNIT",
+                    "radiusSummary": {
+                        "distanceFromPoint": "0.45"
+                    }
+                }
+            },
+            {
+                "propertySummary": {
+                    "address": {
+                        "singleLineAddress": "22/130 Main Street Blacktown NSW 2148"
+                    },
+                    "attributes": {
+                        "bathrooms": 2,
+                        "bedrooms": 2,
+                        "carSpaces": 1,
+                        "isCalculatedLandArea": false,
+                        "landArea": 93
+                    },
+                    "coordinate": {
+                        "latitude": -33.77197234,
+                        "longitude": 150.91106057
+                    },
+                    "id": 17463764,
+                    "locationIdentifiers": {
+                        "councilAreaId": 13,
+                        "localityId": 5681,
+                        "postCodeId": 100266,
+                        "streetId": 269429
+                    },
+                    "otmForRentDetail": {
+                        "agency": "Starr Partners Blacktown",
+                        "agent": "Holly Clements",
+                        "date": "2019-05-15",
+                        "isActiveCampaign": true,
+                        "period": "W",
+                        "price": 400,
+                        "priceDescription": "$400.00 Per Week"
+                    },
+                    "propertyPhoto": {
+                        "largePhotoUrl": "https://das-web.corelogic.asia/v1/asset/NWU23ISWMYI6TP44B4JVFWVLJA/resize;m=exact;w=768;h=512",
+                        "mediumPhotoUrl": "https://das-web.corelogic.asia/v1/asset/NWU23ISWMYI6TP44B4JVFWVLJA/resize;m=exact;w=470;h=313",
+                        "scanDate": "1970-01-01",
+                        "thumbnailPhotoUrl": "https://das-web.corelogic.asia/v1/asset/NWU23ISWMYI6TP44B4JVFWVLJA/resize;m=exact;w=120;h=80"
+                    },
+                    "propertyStatus": {
+                        "otmForRent": true,
+                        "otmForSale": false,
+                        "recentSale": false
+                    },
+                    "propertySubType": "Unit: Standard",
+                    "propertySubTypeShort": "Standard",
+                    "propertyType": "UNIT",
+                    "radiusSummary": {
+                        "distanceFromPoint": "0.45"
+                    }
+                }
+            },
+            {
+                "propertySummary": {
+                    "address": {
+                        "singleLineAddress": "17/130 Main Street Blacktown NSW 2148"
+                    },
+                    "attributes": {
+                        "bathrooms": 2,
+                        "bedrooms": 2,
+                        "carSpaces": 1,
+                        "isCalculatedLandArea": false,
+                        "landArea": 123,
+                        "lockUpGarages": 1
+                    },
+                    "coordinate": {
+                        "latitude": -33.77197234,
+                        "longitude": 150.91106057
+                    },
+                    "id": 17455226,
+                    "locationIdentifiers": {
+                        "councilAreaId": 13,
+                        "localityId": 5681,
+                        "postCodeId": 100266,
+                        "streetId": 269429
+                    },
+                    "otmForRentDetail": {
+                        "agency": "First National Real Estate Blacktown",
+                        "agent": "Jessica McKinnon",
+                        "date": "2019-04-29",
+                        "isActiveCampaign": true,
+                        "period": "W",
+                        "price": 490,
+                        "priceDescription": "$490 Per Week"
+                    },
+                    "propertyPhoto": {
+                        "largePhotoUrl": "https://das-web.corelogic.asia/v1/asset/MQIFGBLLWMI6TEGLKNYIF4E53I/resize;m=exact;w=768;h=512",
+                        "mediumPhotoUrl": "https://das-web.corelogic.asia/v1/asset/MQIFGBLLWMI6TEGLKNYIF4E53I/resize;m=exact;w=470;h=313",
+                        "scanDate": "1970-01-01",
+                        "thumbnailPhotoUrl": "https://das-web.corelogic.asia/v1/asset/MQIFGBLLWMI6TEGLKNYIF4E53I/resize;m=exact;w=120;h=80"
+                    },
+                    "propertyStatus": {
+                        "otmForRent": true,
+                        "otmForSale": false,
+                        "recentSale": false
+                    },
+                    "propertySubType": "Unit: Standard",
+                    "propertySubTypeShort": "Standard",
+                    "propertyType": "UNIT",
+                    "radiusSummary": {
+                        "distanceFromPoint": "0.45"
+                    }
+                }
+            },
+            {
+                "propertySummary": {
+                    "address": {
+                        "singleLineAddress": "48/130 Main Street Blacktown NSW 2148"
+                    },
+                    "attributes": {
+                        "bathrooms": 2,
+                        "bedrooms": 2,
+                        "carSpaces": 1,
+                        "isCalculatedLandArea": false,
+                        "landArea": 108,
+                        "lockUpGarages": 1
+                    },
+                    "coordinate": {
+                        "latitude": -33.77197234,
+                        "longitude": 150.91106057
+                    },
+                    "id": 17463770,
+                    "locationIdentifiers": {
+                        "councilAreaId": 13,
+                        "localityId": 5681,
+                        "postCodeId": 100266,
+                        "streetId": 269429
+                    },
+                    "otmForRentDetail": {
+                        "agency": "Better Buildings Realty",
+                        "agent": "Better Buildings Realty",
+                        "date": "2019-05-02",
+                        "isActiveCampaign": true,
+                        "period": "W",
+                        "price": 450,
+                        "priceDescription": "$450 per week"
+                    },
+                    "propertyPhoto": {
+                        "largePhotoUrl": "https://das-web.corelogic.asia/v1/asset/XQNULK2WMUI6TP44B4JVFWVLJA/resize;m=exact;w=768;h=512",
+                        "mediumPhotoUrl": "https://das-web.corelogic.asia/v1/asset/XQNULK2WMUI6TP44B4JVFWVLJA/resize;m=exact;w=470;h=313",
+                        "scanDate": "1970-01-01",
+                        "thumbnailPhotoUrl": "https://das-web.corelogic.asia/v1/asset/XQNULK2WMUI6TP44B4JVFWVLJA/resize;m=exact;w=120;h=80"
+                    },
+                    "propertyStatus": {
+                        "otmForRent": true,
+                        "otmForSale": false,
+                        "recentSale": false
+                    },
+                    "propertySubType": "Unit: Standard",
+                    "propertySubTypeShort": "Standard",
+                    "propertyType": "UNIT",
+                    "radiusSummary": {
+                        "distanceFromPoint": "0.45"
+                    }
+                }
+            },
+            {
+                "propertySummary": {
+                    "address": {
+                        "singleLineAddress": "2002/1 Boys Avenue Blacktown NSW 2148"
+                    },
+                    "attributes": {
+                        "bathrooms": 2,
+                        "bedrooms": 2,
+                        "carSpaces": 2,
+                        "isCalculatedLandArea": true,
+                        "landArea": 780
+                    },
+                    "coordinate": {
+                        "latitude": -33.7668049,
+                        "longitude": 150.90952954
+                    },
+                    "id": 45093135,
+                    "locationIdentifiers": {
+                        "councilAreaId": 13,
+                        "localityId": 5681,
+                        "postCodeId": 100266,
+                        "streetId": 221975
+                    },
+                    "otmForRentDetail": {
+                        "agency": "Raine & Horne Rouse Hill",
+                        "agent": "Lyn Blaauw",
+                        "date": "2019-05-12",
+                        "isActiveCampaign": true,
+                        "period": "W",
+                        "price": 440
+                    },
+                    "propertyPhoto": {
+                        "largePhotoUrl": "https://das-web.corelogic.asia/v1/asset/AGXLNGKWNII6TO3FZ4IC25O4IA/resize;m=exact;w=768;h=512",
+                        "mediumPhotoUrl": "https://das-web.corelogic.asia/v1/asset/AGXLNGKWNII6TO3FZ4IC25O4IA/resize;m=exact;w=470;h=313",
+                        "scanDate": "1970-01-01",
+                        "thumbnailPhotoUrl": "https://das-web.corelogic.asia/v1/asset/AGXLNGKWNII6TO3FZ4IC25O4IA/resize;m=exact;w=120;h=80"
+                    },
+                    "propertyStatus": {
+                        "otmForRent": true,
+                        "otmForSale": false,
+                        "recentSale": false
+                    },
+                    "propertySubType": "Unit: Standard",
+                    "propertySubTypeShort": "Standard",
+                    "propertyType": "UNIT",
+                    "radiusSummary": {
+                        "distanceFromPoint": "0.55"
+                    }
+                }
+            },
+            {
+                "propertySummary": {
+                    "address": {
+                        "singleLineAddress": "1804/1 Boys Avenue Blacktown NSW 2148"
+                    },
+                    "attributes": {
+                        "bathrooms": 2,
+                        "bedrooms": 2,
+                        "carSpaces": 1,
+                        "isCalculatedLandArea": true,
+                        "landArea": 780
+                    },
+                    "coordinate": {
+                        "latitude": -33.7668049,
+                        "longitude": 150.90952954
+                    },
+                    "id": 45093082,
+                    "locationIdentifiers": {
+                        "councilAreaId": 13,
+                        "localityId": 5681,
+                        "postCodeId": 100266,
+                        "streetId": 221975
+                    },
+                    "otmForRentDetail": {
+                        "agency": "Harcourts Unlimited",
+                        "agent": "Steven Farrugia",
+                        "date": "2019-05-14",
+                        "isActiveCampaign": true,
+                        "period": "M",
+                        "price": 440,
+                        "priceDescription": "$440 p.w."
+                    },
+                    "propertyPhoto": {
+                        "largePhotoUrl": "https://das-web.corelogic.asia/v1/asset/SAQBIWLV4YI6TPA3E737JTOFWU/resize;m=exact;w=768;h=512",
+                        "mediumPhotoUrl": "https://das-web.corelogic.asia/v1/asset/SAQBIWLV4YI6TPA3E737JTOFWU/resize;m=exact;w=470;h=313",
+                        "scanDate": "1970-01-01",
+                        "thumbnailPhotoUrl": "https://das-web.corelogic.asia/v1/asset/SAQBIWLV4YI6TPA3E737JTOFWU/resize;m=exact;w=120;h=80"
+                    },
+                    "propertyStatus": {
+                        "otmForRent": true,
+                        "otmForSale": false,
+                        "recentSale": false
+                    },
+                    "propertySubType": "Unit: Standard",
+                    "propertySubTypeShort": "Standard",
+                    "propertyType": "UNIT",
+                    "radiusSummary": {
+                        "distanceFromPoint": "0.55"
+                    }
+                }
+            },
+            {
+                "propertySummary": {
+                    "address": {
+                        "singleLineAddress": "1205/1 Boys Avenue Blacktown NSW 2148"
+                    },
+                    "attributes": {
+                        "bathrooms": 2,
+                        "bedrooms": 3,
+                        "carSpaces": 1,
+                        "isCalculatedLandArea": true,
+                        "landArea": 780
+                    },
+                    "coordinate": {
+                        "latitude": -33.7668049,
+                        "longitude": 150.90952954
+                    },
+                    "id": 45093077,
+                    "locationIdentifiers": {
+                        "councilAreaId": 13,
+                        "localityId": 5681,
+                        "postCodeId": 100266,
+                        "streetId": 221975
+                    },
+                    "otmForRentDetail": {
+                        "agency": "Laing+Simmons Blacktown",
+                        "agent": "Ester Tower",
+                        "date": "2019-05-06",
+                        "isActiveCampaign": true,
+                        "period": "W",
+                        "priceDescription": "LEASED BY SAM DALBY"
+                    },
+                    "propertyPhoto": {
+                        "largePhotoUrl": "https://das-web.corelogic.asia/v1/asset/7HLLWL3NHYI6TABR7N4MQTTXXU/resize;m=exact;w=768;h=512",
+                        "mediumPhotoUrl": "https://das-web.corelogic.asia/v1/asset/7HLLWL3NHYI6TABR7N4MQTTXXU/resize;m=exact;w=470;h=313",
+                        "scanDate": "1970-01-01",
+                        "thumbnailPhotoUrl": "https://das-web.corelogic.asia/v1/asset/7HLLWL3NHYI6TABR7N4MQTTXXU/resize;m=exact;w=120;h=80"
+                    },
+                    "propertyStatus": {
+                        "otmForRent": true,
+                        "otmForSale": false,
+                        "recentSale": false
+                    },
+                    "propertySubType": "Unit: Standard",
+                    "propertySubTypeShort": "Standard",
+                    "propertyType": "UNIT",
+                    "radiusSummary": {
+                        "distanceFromPoint": "0.55"
+                    }
+                }
+            },
+            {
+                "propertySummary": {
+                    "address": {
+                        "singleLineAddress": "404/53 Kildare Road Blacktown NSW 2148"
+                    },
+                    "attributes": {
+                        "bathrooms": 2,
+                        "bedrooms": 2,
+                        "carSpaces": 1,
+                        "isCalculatedLandArea": false,
+                        "landArea": 108
+                    },
+                    "coordinate": {
+                        "latitude": -33.76856874,
+                        "longitude": 150.90093173
+                    },
+                    "id": 46005268,
+                    "locationIdentifiers": {
+                        "councilAreaId": 13,
+                        "localityId": 5681,
+                        "postCodeId": 100266,
+                        "streetId": 245716
+                    },
+                    "otmForRentDetail": {
+                        "agency": "Manor Real Estate",
+                        "agent": "Harrison Lamond",
+                        "date": "2019-04-30",
+                        "isActiveCampaign": true,
+                        "period": "W",
+                        "priceDescription": "LEASED BY Manor 02 9629 8490"
+                    },
+                    "propertyPhoto": {
+                        "largePhotoUrl": "https://das-web.corelogic.asia/v1/asset/FNCA5NBOUYI6TEWE6FNF4MSSEM/resize;m=exact;w=768;h=512",
+                        "mediumPhotoUrl": "https://das-web.corelogic.asia/v1/asset/FNCA5NBOUYI6TEWE6FNF4MSSEM/resize;m=exact;w=470;h=313",
+                        "scanDate": "1970-01-01",
+                        "thumbnailPhotoUrl": "https://das-web.corelogic.asia/v1/asset/FNCA5NBOUYI6TEWE6FNF4MSSEM/resize;m=exact;w=120;h=80"
+                    },
+                    "propertyStatus": {
+                        "otmForRent": true,
+                        "otmForSale": false,
+                        "recentSale": false
+                    },
+                    "propertySubType": "Unit: Standard",
+                    "propertySubTypeShort": "Standard",
+                    "propertyType": "UNIT",
+                    "radiusSummary": {
+                        "distanceFromPoint": "0.57"
+                    }
+                }
+            },
+            {
+                "propertySummary": {
+                    "address": {
+                        "singleLineAddress": "104/43 Devitt Street Blacktown NSW 2148"
+                    },
+                    "attributes": {
+                        "bathrooms": 2,
+                        "bedrooms": 3,
+                        "carSpaces": 2,
+                        "isCalculatedLandArea": false,
+                        "landArea": 145
+                    },
+                    "coordinate": {
+                        "latitude": -33.76960417,
+                        "longitude": 150.9127979
+                    },
+                    "id": 46070786,
+                    "locationIdentifiers": {
+                        "councilAreaId": 13,
+                        "localityId": 5681,
+                        "postCodeId": 100266,
+                        "streetId": 218049
+                    },
+                    "otmForRentDetail": {
+                        "agency": "Richardson & Wrench - Blacktown",
+                        "agent": "Sara Alexander",
+                        "date": "2019-05-14",
+                        "isActiveCampaign": true,
+                        "period": "W",
+                        "price": 495
+                    },
+                    "propertyPhoto": {
+                        "largePhotoUrl": "https://das-web.corelogic.asia/v1/asset/7W6WROXSGQI6RCAIIXAVXHQ2WY/resize;m=exact;w=768;h=512",
+                        "mediumPhotoUrl": "https://das-web.corelogic.asia/v1/asset/7W6WROXSGQI6RCAIIXAVXHQ2WY/resize;m=exact;w=470;h=313",
+                        "scanDate": "2018-11-27",
+                        "thumbnailPhotoUrl": "https://das-web.corelogic.asia/v1/asset/7W6WROXSGQI6RCAIIXAVXHQ2WY/resize;m=exact;w=120;h=80"
+                    },
+                    "propertyStatus": {
+                        "otmForRent": true,
+                        "otmForSale": false,
+                        "recentSale": false
+                    },
+                    "propertySubType": "Unit: Standard",
+                    "propertySubTypeShort": "Standard",
+                    "propertyType": "UNIT",
+                    "radiusSummary": {
+                        "distanceFromPoint": "0.62"
+                    }
+                }
+            },
+            {
+                "propertySummary": {
+                    "address": {
+                        "singleLineAddress": "107/43 Devitt Street Blacktown NSW 2148"
+                    },
+                    "attributes": {
+                        "bathrooms": 2,
+                        "bedrooms": 2,
+                        "carSpaces": 1,
+                        "isCalculatedLandArea": true,
+                        "landArea": 0
+                    },
+                    "coordinate": {
+                        "latitude": -33.76960417,
+                        "longitude": 150.9127979
+                    },
+                    "id": 46070830,
+                    "locationIdentifiers": {
+                        "councilAreaId": 13,
+                        "localityId": 5681,
+                        "postCodeId": 100266,
+                        "streetId": 218049
+                    },
+                    "otmForRentDetail": {
+                        "agency": "Richardson & Wrench - Blacktown",
+                        "agent": "Sara Alexander",
+                        "date": "2019-04-28",
+                        "isActiveCampaign": true,
+                        "period": "W",
+                        "price": 450
+                    },
+                    "propertyPhoto": {
+                        "largePhotoUrl": "https://das-web.corelogic.asia/v1/asset/6YI3K2KOXII6TPIJIN3F67ZSKE/resize;m=exact;w=768;h=512",
+                        "mediumPhotoUrl": "https://das-web.corelogic.asia/v1/asset/6YI3K2KOXII6TPIJIN3F67ZSKE/resize;m=exact;w=470;h=313",
+                        "scanDate": "1970-01-01",
+                        "thumbnailPhotoUrl": "https://das-web.corelogic.asia/v1/asset/6YI3K2KOXII6TPIJIN3F67ZSKE/resize;m=exact;w=120;h=80"
+                    },
+                    "propertyStatus": {
+                        "otmForRent": true,
+                        "otmForSale": false,
+                        "recentSale": false
+                    },
+                    "propertySubType": "Unit: Standard",
+                    "propertySubTypeShort": "Standard",
+                    "propertyType": "UNIT",
+                    "radiusSummary": {
+                        "distanceFromPoint": "0.62"
+                    }
+                }
+            },
+            {
+                "propertySummary": {
+                    "address": {
+                        "singleLineAddress": "81/21-29 Third Avenue Blacktown NSW 2148"
+                    },
+                    "attributes": {
+                        "bathrooms": 1,
+                        "bedrooms": 2,
+                        "carSpaces": 1,
+                        "isCalculatedLandArea": true,
+                        "landArea": 4316,
+                        "lockUpGarages": 1
+                    },
+                    "coordinate": {
+                        "latitude": -33.76499538,
+                        "longitude": 150.9101258
+                    },
+                    "id": 16683106,
+                    "locationIdentifiers": {
+                        "councilAreaId": 13,
+                        "localityId": 5681,
+                        "postCodeId": 100266,
+                        "streetId": 283935
+                    },
+                    "otmForRentDetail": {
+                        "agency": "Best Value Real Estate",
+                        "agent": "Rental Team",
+                        "date": "2019-05-06",
+                        "isActiveCampaign": true,
+                        "period": "W",
+                        "priceDescription": "Deposit Taken"
+                    },
+                    "propertyPhoto": {
+                        "largePhotoUrl": "https://das-web.corelogic.asia/v1/asset/GRQNV2UOOUI6PGUII7RV2EX66I/resize;m=exact;w=768;h=512",
+                        "mediumPhotoUrl": "https://das-web.corelogic.asia/v1/asset/GRQNV2UOOUI6PGUII7RV2EX66I/resize;m=exact;w=470;h=313",
+                        "scanDate": "2017-08-31",
+                        "thumbnailPhotoUrl": "https://das-web.corelogic.asia/v1/asset/GRQNV2UOOUI6PGUII7RV2EX66I/resize;m=exact;w=120;h=80"
+                    },
+                    "propertyStatus": {
+                        "otmForRent": true,
+                        "otmForSale": false,
+                        "recentSale": false
+                    },
+                    "propertySubType": "Unit: Standard",
+                    "propertySubTypeShort": "Standard",
+                    "propertyType": "UNIT",
+                    "radiusSummary": {
+                        "distanceFromPoint": "0.75"
+                    }
+                }
+            },
+            {
+                "propertySummary": {
+                    "address": {
+                        "singleLineAddress": "312/12 Fourth Avenue Blacktown NSW 2148"
+                    },
+                    "attributes": {
+                        "bathrooms": 2,
+                        "bedrooms": 2,
+                        "carSpaces": 1,
+                        "isCalculatedLandArea": true,
+                        "landArea": 0
+                    },
+                    "coordinate": {
+                        "latitude": -33.76506494,
+                        "longitude": 150.9113785
+                    },
+                    "id": 41274793,
+                    "locationIdentifiers": {
+                        "councilAreaId": 13,
+                        "localityId": 5681,
+                        "postCodeId": 100266,
+                        "streetId": 196516
+                    },
+                    "otmForRentDetail": {
+                        "agency": "Ray White St Martins",
+                        "agent": "Maria Solis",
+                        "date": "2019-05-09",
+                        "isActiveCampaign": true,
+                        "period": "W",
+                        "price": 460
+                    },
+                    "propertyPhoto": {
+                        "largePhotoUrl": "https://das-web.corelogic.asia/v1/asset/TOPQXUSD5II6REE5VFFJOSFJZI/resize;m=exact;w=768;h=512",
+                        "mediumPhotoUrl": "https://das-web.corelogic.asia/v1/asset/TOPQXUSD5II6REE5VFFJOSFJZI/resize;m=exact;w=470;h=313",
+                        "scanDate": "2018-04-19",
+                        "thumbnailPhotoUrl": "https://das-web.corelogic.asia/v1/asset/TOPQXUSD5II6REE5VFFJOSFJZI/resize;m=exact;w=120;h=80"
+                    },
+                    "propertyStatus": {
+                        "otmForRent": true,
+                        "otmForSale": false,
+                        "recentSale": false
+                    },
+                    "propertySubType": "Unit: Standard",
+                    "propertySubTypeShort": "Standard",
+                    "propertyType": "UNIT",
+                    "radiusSummary": {
+                        "distanceFromPoint": "0.81"
+                    }
+                }
+            },
+            {
+                "propertySummary": {
+                    "address": {
+                        "singleLineAddress": "25A Turvey Road Blacktown NSW 2148"
+                    },
+                    "attributes": {
+                        "bathrooms": 1,
+                        "bedrooms": 2,
+                        "carSpaces": 1,
+                        "isCalculatedLandArea": true,
+                        "landArea": 0
+                    },
+                    "coordinate": {
+                        "latitude": -33.77858072,
+                        "longitude": 150.9043681
+                    },
+                    "id": 43319589,
+                    "locationIdentifiers": {
+                        "councilAreaId": 13,
+                        "localityId": 5681,
+                        "postCodeId": 100266,
+                        "streetId": 299262
+                    },
+                    "otmForRentDetail": {
+                        "agency": "Comfirst Real Estate",
+                        "agent": "Nicole Lee",
+                        "date": "2019-05-06",
+                        "isActiveCampaign": true,
+                        "period": "W",
+                        "price": 405,
+                        "priceDescription": "$405 per week"
+                    },
+                    "propertyPhoto": {
+                        "largePhotoUrl": "https://das-web.corelogic.asia/v1/asset/F6MLXC3N7YI6TNEBR5DRXQGXUQ/resize;m=exact;w=768;h=512",
+                        "mediumPhotoUrl": "https://das-web.corelogic.asia/v1/asset/F6MLXC3N7YI6TNEBR5DRXQGXUQ/resize;m=exact;w=470;h=313",
+                        "scanDate": "1970-01-01",
+                        "thumbnailPhotoUrl": "https://das-web.corelogic.asia/v1/asset/F6MLXC3N7YI6TNEBR5DRXQGXUQ/resize;m=exact;w=120;h=80"
+                    },
+                    "propertyStatus": {
+                        "otmForRent": true,
+                        "otmForSale": false,
+                        "recentSale": false
+                    },
+                    "propertySubType": "House: One Storey / Lowset",
+                    "propertySubTypeShort": "One Storey / Lowset",
+                    "propertyType": "HOUSE",
+                    "radiusSummary": {
+                        "distanceFromPoint": "0.86"
+                    }
+                }
+            },
+            {
+                "propertySummary": {
+                    "address": {
+                        "singleLineAddress": "21A Kent Street Blacktown NSW 2148"
+                    },
+                    "attributes": {
+                        "bathrooms": 1,
+                        "bedrooms": 3,
+                        "carSpaces": 1,
+                        "isCalculatedLandArea": true,
+                        "landArea": 632
+                    },
+                    "coordinate": {
+                        "latitude": -33.76437497,
+                        "longitude": 150.89958904
+                    },
+                    "id": 39524713,
+                    "locationIdentifiers": {
+                        "councilAreaId": 13,
+                        "localityId": 5681,
+                        "postCodeId": 100266,
+                        "streetId": 245132
+                    },
+                    "otmForRentDetail": {
+                        "agency": "Comfirst Real Estate - Blacktown",
+                        "agent": "James Lee",
+                        "date": "2019-05-06",
+                        "isActiveCampaign": true,
+                        "period": "M",
+                        "price": 1863,
+                        "priceDescription": "$430 per week"
+                    },
+                    "propertyPhoto": {
+                        "largePhotoUrl": "https://das-web.corelogic.asia/v1/asset/3OQKVODLVMI6TDO6GO7272NT2A/resize;m=exact;w=768;h=512",
+                        "mediumPhotoUrl": "https://das-web.corelogic.asia/v1/asset/3OQKVODLVMI6TDO6GO7272NT2A/resize;m=exact;w=470;h=313",
+                        "scanDate": "1970-01-01",
+                        "thumbnailPhotoUrl": "https://das-web.corelogic.asia/v1/asset/3OQKVODLVMI6TDO6GO7272NT2A/resize;m=exact;w=120;h=80"
+                    },
+                    "propertyStatus": {
+                        "otmForRent": true,
+                        "otmForSale": false,
+                        "recentSale": false
+                    },
+                    "propertySubType": "House: One Storey / Lowset",
+                    "propertySubTypeShort": "One Storey / Lowset",
+                    "propertyType": "HOUSE",
+                    "radiusSummary": {
+                        "distanceFromPoint": "0.96"
+                    }
+                }
+            },
+            {
+                "propertySummary": {
+                    "address": {
+                        "singleLineAddress": "83 Putters Circuit Blacktown NSW 2148"
+                    },
+                    "attributes": {
+                        "bathrooms": 2,
+                        "bedrooms": 3,
+                        "carSpaces": 1,
+                        "isCalculatedLandArea": false,
+                        "landArea": 231
+                    },
+                    "coordinate": {
+                        "latitude": -33.76148085,
+                        "longitude": 150.90080678
+                    },
+                    "id": 45061412,
+                    "locationIdentifiers": {
+                        "councilAreaId": 13,
+                        "localityId": 5681,
+                        "postCodeId": 100266,
+                        "streetId": 266644
+                    },
+                    "otmForRentDetail": {
+                        "agency": "Frasers Property Nsw",
+                        "agent": "Kane Beale",
+                        "date": "2019-04-29",
+                        "isActiveCampaign": true,
+                        "period": "W",
+                        "price": 4060,
+                        "priceDescription": "$580"
+                    },
+                    "propertyPhoto": {
+                        "largePhotoUrl": "https://das-web.corelogic.asia/v1/asset/XHCQCYZTPMI6RCD7CGP4YS7FRA/resize;m=exact;w=768;h=512",
+                        "mediumPhotoUrl": "https://das-web.corelogic.asia/v1/asset/XHCQCYZTPMI6RCD7CGP4YS7FRA/resize;m=exact;w=470;h=313",
+                        "scanDate": "2018-03-29",
+                        "thumbnailPhotoUrl": "https://das-web.corelogic.asia/v1/asset/XHCQCYZTPMI6RCD7CGP4YS7FRA/resize;m=exact;w=120;h=80"
+                    },
+                    "propertyStatus": {
+                        "otmForRent": true,
+                        "otmForSale": false,
+                        "recentSale": false
+                    },
+                    "propertySubType": "House: One Storey / Lowset",
+                    "propertySubTypeShort": "One Storey / Lowset",
+                    "propertyType": "HOUSE",
+                    "radiusSummary": {
+                        "distanceFromPoint": "1.17"
+                    }
+                }
+            },
+            {
+                "propertySummary": {
+                    "address": {
+                        "singleLineAddress": "4/47 Newhaven Avenue Blacktown NSW 2148"
+                    },
+                    "attributes": {
+                        "bathrooms": 1,
+                        "bedrooms": 2,
+                        "carSpaces": 1,
+                        "isCalculatedLandArea": true,
+                        "landArea": 883
+                    },
+                    "coordinate": {
+                        "latitude": -33.78084417,
+                        "longitude": 150.91151045
+                    },
+                    "id": 17154663,
+                    "locationIdentifiers": {
+                        "councilAreaId": 13,
+                        "localityId": 5681,
+                        "postCodeId": 100266,
+                        "streetId": 260279
+                    },
+                    "otmForRentDetail": {
+                        "agency": "Nnw Property",
+                        "agent": "Annie Anne-Marie Bullen",
+                        "date": "2019-05-14",
+                        "isActiveCampaign": true,
+                        "period": "W",
+                        "price": 315,
+                        "priceDescription": "$315 per week"
+                    },
+                    "propertyPhoto": {
+                        "largePhotoUrl": "https://das-web.corelogic.asia/v1/asset/ZWH6TDC2OMI6TA36O7VTH6MCXI/resize;m=exact;w=768;h=512",
+                        "mediumPhotoUrl": "https://das-web.corelogic.asia/v1/asset/ZWH6TDC2OMI6TA36O7VTH6MCXI/resize;m=exact;w=470;h=313",
+                        "scanDate": "1970-01-01",
+                        "thumbnailPhotoUrl": "https://das-web.corelogic.asia/v1/asset/ZWH6TDC2OMI6TA36O7VTH6MCXI/resize;m=exact;w=120;h=80"
+                    },
+                    "propertyStatus": {
+                        "otmForRent": true,
+                        "otmForSale": false,
+                        "recentSale": false
+                    },
+                    "propertySubType": "Unit: Standard",
+                    "propertySubTypeShort": "Standard",
+                    "propertyType": "UNIT",
+                    "radiusSummary": {
+                        "distanceFromPoint": "1.19"
+                    }
+                }
+            },
+            {
+                "propertySummary": {
+                    "address": {
+                        "singleLineAddress": "32 Ellerston Glade Blacktown NSW 2148"
+                    },
+                    "attributes": {
+                        "bathrooms": 2,
+                        "bedrooms": 4,
+                        "carSpaces": 2,
+                        "isCalculatedLandArea": false,
+                        "landArea": 222
+                    },
+                    "coordinate": {
+                        "latitude": -33.76096809,
+                        "longitude": 150.90082464
+                    },
+                    "id": 45073427,
+                    "locationIdentifiers": {
+                        "councilAreaId": 13,
+                        "localityId": 5681,
+                        "postCodeId": 100266,
+                        "streetId": 566872
+                    },
+                    "otmForRentDetail": {
+                        "agency": "Frasers Property Nsw",
+                        "agent": "Kane Beale",
+                        "date": "2019-04-27",
+                        "isActiveCampaign": true,
+                        "period": "W",
+                        "price": 4410,
+                        "priceDescription": "$630"
+                    },
+                    "propertyPhoto": {
+                        "largePhotoUrl": "https://das-web.corelogic.asia/v1/asset/JHEQH6EBJ4I6RFGY2655BKM4ZM/resize;m=exact;w=768;h=512",
+                        "mediumPhotoUrl": "https://das-web.corelogic.asia/v1/asset/JHEQH6EBJ4I6RFGY2655BKM4ZM/resize;m=exact;w=470;h=313",
+                        "scanDate": "2018-07-06",
+                        "thumbnailPhotoUrl": "https://das-web.corelogic.asia/v1/asset/JHEQH6EBJ4I6RFGY2655BKM4ZM/resize;m=exact;w=120;h=80"
+                    },
+                    "propertyStatus": {
+                        "otmForRent": true,
+                        "otmForSale": false,
+                        "recentSale": false
+                    },
+                    "propertySubType": "House: One Storey / Lowset",
+                    "propertySubTypeShort": "One Storey / Lowset",
+                    "propertyType": "HOUSE",
+                    "radiusSummary": {
+                        "distanceFromPoint": "1.22"
+                    }
+                }
+            },
+            {
+                "propertySummary": {
+                    "address": {
+                        "singleLineAddress": "80A Peter Street Blacktown NSW 2148"
+                    },
+                    "attributes": {
+                        "bathrooms": 1,
+                        "bedrooms": 3,
+                        "carSpaces": 1,
+                        "isCalculatedLandArea": true,
+                        "landArea": 842
+                    },
+                    "coordinate": {
+                        "latitude": -33.76186603,
+                        "longitude": 150.91448834
+                    },
+                    "id": 37822766,
+                    "locationIdentifiers": {
+                        "councilAreaId": 13,
+                        "localityId": 5681,
+                        "postCodeId": 100266,
+                        "streetId": 242376
+                    },
+                    "otmForRentDetail": {
+                        "agency": "L J Hooker Blacktown",
+                        "agent": "Lj Hooker Blacktown",
+                        "date": "2019-05-13",
+                        "isActiveCampaign": true,
+                        "period": "W",
+                        "price": 350,
+                        "priceDescription": "$350"
+                    },
+                    "propertyPhoto": {
+                        "largePhotoUrl": "https://das-web.corelogic.asia/v1/asset/QIDTF6DV3YI6TETWOFUHR6XY4Q/resize;m=exact;w=768;h=512",
+                        "mediumPhotoUrl": "https://das-web.corelogic.asia/v1/asset/QIDTF6DV3YI6TETWOFUHR6XY4Q/resize;m=exact;w=470;h=313",
+                        "scanDate": "1970-01-01",
+                        "thumbnailPhotoUrl": "https://das-web.corelogic.asia/v1/asset/QIDTF6DV3YI6TETWOFUHR6XY4Q/resize;m=exact;w=120;h=80"
+                    },
+                    "propertyStatus": {
+                        "otmForRent": true,
+                        "otmForSale": false,
+                        "recentSale": false
+                    },
+                    "propertySubType": "House: One Storey / Lowset",
+                    "propertySubTypeShort": "One Storey / Lowset",
+                    "propertyType": "HOUSE",
+                    "radiusSummary": {
+                        "distanceFromPoint": "1.27"
+                    }
+                }
+            },
+            {
+                "propertySummary": {
+                    "address": {
+                        "singleLineAddress": "15 Ironwood Crescent Blacktown NSW 2148"
+                    },
+                    "attributes": {
+                        "bathrooms": 2,
+                        "bedrooms": 3,
+                        "carSpaces": 1,
+                        "isCalculatedLandArea": true,
+                        "landArea": 182,
+                        "lockUpGarages": 1
+                    },
+                    "coordinate": {
+                        "latitude": -33.75887843,
+                        "longitude": 150.90340417
+                    },
+                    "id": 44346827,
+                    "locationIdentifiers": {
+                        "councilAreaId": 13,
+                        "localityId": 5681,
+                        "postCodeId": 100266,
+                        "streetId": 532880
+                    },
+                    "otmForRentDetail": {
+                        "agency": "Laing & Simmons Mount Druitt",
+                        "agent": "Property Management Team",
+                        "date": "2019-05-01",
+                        "isActiveCampaign": true,
+                        "period": "W",
+                        "price": 550,
+                        "priceDescription": "$580.00 per week"
+                    },
+                    "propertyPhoto": {
+                        "largePhotoUrl": "https://das-web.corelogic.asia/v1/asset/5SKYD42XFAI6TJQLOOVKEMTSEA/resize;m=exact;w=768;h=512",
+                        "mediumPhotoUrl": "https://das-web.corelogic.asia/v1/asset/5SKYD42XFAI6TJQLOOVKEMTSEA/resize;m=exact;w=470;h=313",
+                        "scanDate": "1970-01-01",
+                        "thumbnailPhotoUrl": "https://das-web.corelogic.asia/v1/asset/5SKYD42XFAI6TJQLOOVKEMTSEA/resize;m=exact;w=120;h=80"
+                    },
+                    "propertyStatus": {
+                        "otmForRent": true,
+                        "otmForSale": false,
+                        "recentSale": false
+                    },
+                    "propertySubType": "House: One Storey / Lowset",
+                    "propertySubTypeShort": "One Storey / Lowset",
+                    "propertyType": "HOUSE",
+                    "radiusSummary": {
+                        "distanceFromPoint": "1.37"
+                    }
+                }
+            }
+        ]
+    },
+    "_links": {
+        "first": {
+            "href": "https://search-sandbox-api.amp.corelogic.asia/search/au/property/geo/radius/otmForRent?lat=-33.7710&lon=150.906296&propertyId=0&radius=10&page=0&size=20"
+        },
+        "self": {
+            "href": "https://search-sandbox-api.amp.corelogic.asia/search/au/property/geo/radius/otmForRent?lat=-33.7710&lon=150.906296&propertyId=0&radius=10"
+        },
+        "next": {
+            "href": "https://search-sandbox-api.amp.corelogic.asia/search/au/property/geo/radius/otmForRent?lat=-33.7710&lon=150.906296&propertyId=0&radius=10&page=1&size=20"
+        },
+        "last": {
+            "href": "https://search-sandbox-api.amp.corelogic.asia/search/au/property/geo/radius/otmForRent?lat=-33.7710&lon=150.906296&propertyId=0&radius=10&page=3&size=20"
+        }
+    },
+    "page": {
+        "number": 0,
+        "size": 20,
+        "totalElements": 67,
+        "totalPages": 4
+    }
+}
